@@ -10,8 +10,18 @@
  */
 public class mujer extends persona{
     
-    public mujer(String cui, String nombre, int edad) {
+    private int bellesa;
+    
+    public mujer(String cui, String nombre, int edad,int bellesa) {
         super(cui, nombre, edad);
+    }
+   
+    public int getBellesa() {
+        return bellesa;
+    }
+
+    public void setBellesa(int bellesa) {
+        this.bellesa = bellesa;
     }
     
 }
